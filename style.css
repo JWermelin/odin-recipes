@@ -13,3 +13,8 @@ a {
 font-size: 50px;
 color: rgba(95, 158, 160, 0.9);
 }
+
+.image.large {
+    height: auto;
+    width:400px;
+}
