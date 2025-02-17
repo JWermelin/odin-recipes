@@ -4,12 +4,14 @@
 
 a {
     text-decoration:none;
+    display: inline;
 }
 
-ul {
-    list-style-type: none;
-    text-align:center;
-  }
+
+div {
+    display: inline;
+    background-color:transparent;
+}
 
 .headline {
     text-align:center;
@@ -17,12 +19,17 @@ ul {
     color:rgba(95, 158, 160, 0.527);
     font-size: 200px;
     font-weight: lighter;
-    margin-bottom: -300px;
 }
 
 .smaller {
     font-family: 'Arial Black';
-    font-size: 50px;
+    font-size: 45px;
     color: rgba(42, 70, 71, 0.871);
     background-color:transparent;
+}
+
+.ipsum {
+    font-family: 'Arial Black';
+    font-size: 45px;
+    color:rgba(42, 70, 71, 0.495)
 }
