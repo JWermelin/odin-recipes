@@ -1,5 +1,6 @@
 * {box-sizing:border-box;
     background-color:#efdca6;
+    text-align:center;
 }
 
 a {
@@ -32,4 +33,12 @@ div {
     font-family: 'Arial Black';
     font-size: 45px;
     color:rgba(42, 70, 71, 0.495)
+}
+
+.flex-container {
+    display:flex;
+}
+
+.div {
+    flex:1;
 }
