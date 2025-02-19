@@ -3,6 +3,12 @@
     text-align:center;
 }
 
+ul, ol {
+    list-style:none;
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
 a {
     text-decoration:none;
     display: inline;
@@ -37,6 +43,12 @@ div {
 
 .flex-container {
     display:flex;
+    flex-direction:column;
+    text-decoration:none;
+}
+
+#id {
+    text-decoration:none;
 }
 
 .div {
